@@ -8,8 +8,7 @@
     <title>Document</title>
     <style>
         body {
-            text-align: center;
-            background: black;
+            background-image: url(fundo.png);
             margin: 80px;
         }
         
@@ -18,25 +17,26 @@
             text-align: center;
         }
         
-        .direita {
-            background: rgb(43, 43, 43);
+        .direita,
+        .esquerda {
+            background: rgb(34, 34, 34);
+            color: white;
             margin: 50px;
             padding: 40px;
             border-radius: 20px;
-        }
-        
-        .esquerda {
-            color: white;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         input {
             border: 1px solid black;
-            border-radius: 15px;
+            border-radius: 10px;
             height: 40px;
             width: 200px;
+            text-align: center;
+            font-size: 10pt;
         }
         
-        button {
+        .button {
             border-radius: 15px;
             height: 40px;
             width: 200px;
@@ -47,25 +47,34 @@
         a {
             color: red;
         }
+        
+        #esqueci {
+            margin-right: 50px;
+        }
+        
+        #separa {
+            margin-left: 95px;
+        }
     </style>
 </head>
 
 <body>
     <div class="pai">
+        <div id="separa"></div>
         <div class="esquerda">
-            <img src="Principal.png" alt="icone Luster" height="30" width="30">
-            <h1>Faça seu Login na plataforma</h1>
+            <img src="luster.png" alt="icone Luster" width="400px">
+            <h1>Faça seu Login <br>na maior plataforma de<br>apostas da América Latina</h1>
         </div>
         <div class="direita">
-            <input type="email"><br><br>
-            <input type="password"><br>
-            <a href="">Esqueci minha senha</a><br><br>
-            <button>Entrar</button>
-            <p>Não tem um conta?<a href="">Registre-se</a></p>
+            <input type="email" placeholder="E-mail"><br><br>
+            <input type="password" placeholder="Senha"><br>
+            <a href="" id="esqueci">Esqueci minha senha</a><br><br>
+            <input type="submit" value="ENTRAR" class="button">
+            <p>Não tem um conta? <a href="">Registre-se</a></p>
             <hr>
             <div class="pai">
                 <div>
-                    <p>Ou entre com: </p>
+                    <p>Ou entre com:</p>
                 </div>
                 <div id="viadage">
                     <img src="facebook.png" alt="icone facebook" height="30" width="30">
