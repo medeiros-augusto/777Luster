@@ -1,6 +1,7 @@
 body {
     background-image: url(images/fundo.png);
     margin: 80px;
+    padding-top: 80px;
 }
 
 .pai {
@@ -26,7 +27,7 @@ input {
     border: 1px solid black;
     border-radius: 10px;
     height: 40px;
-    width: 200px;
+    width: 300px;
     text-align: center;
     font-size: 10pt;
     margin-bottom: 10px;
@@ -44,10 +45,20 @@ a {
     color: red;
 }
 
-#esqueci {
-    margin-right: 50px;
+#esqueci{
+    margin-right: 140px;
 }
 
 #separa {
-    margin-left: 95px;
+    margin-left: 30px;
+}
+#viadage{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#ladin{
+    margin-right: 50px;
+}
+#logos{
+    padding-left: 12px;
 }
