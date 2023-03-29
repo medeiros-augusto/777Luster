@@ -1,0 +1,53 @@
+body {
+    background-image: url(images/fundo.png);
+    margin: 80px;
+}
+
+.pai {
+    display: flex;
+    text-align: center;
+}
+
+.direita,
+.esquerda {
+    background: rgb(34, 34, 34);
+    color: white;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pai>.esquerda>#titulo {
+    margin: 0px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+
+.button {
+    border-radius: 15px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background: red;
+}
+
+a {
+    color: red;
+}
+
+#esqueci {
+    margin-right: 50px;
+}
+
+#separa {
+    margin-left: 95px;
+}
