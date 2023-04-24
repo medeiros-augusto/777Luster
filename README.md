@@ -1,2 +1,2 @@
 # 777Luster
-Site Luster, projeto senai
+Site Luster, projeto de situação de aprendizagem Senai
