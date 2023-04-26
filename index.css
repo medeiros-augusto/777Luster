@@ -21,7 +21,26 @@ body {
     background: black;
 }
 
+.pretomaior{
+    border-radius: 15px;
+    height: 30px;
+    width: 180px;
+    font-size: 10pt;
+    color: white;
+    background: black;
+}
+
+.vermeiomaior {
+    border-radius: 15px;
+    height: 30px;
+    width: 180px;
+    font-size: 10pt;
+    color: white;
+    background: red;
+}
+
 footer {
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -39,9 +58,30 @@ header {
     width: 100%;
     left: 0;
     top: 0;
+    gap: 24%;
+    margin: solid 1px white;
     background-color: rgb(34, 34, 34);
-    gap: 25%;
 }
+
+main{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.topo{
+    height: 30%;
+    width: 100%;
+}
+
+.esquerda{
+    height: 70%;
+    width: 30%;
+}
+
+.direita{
+    height: 70%;
+    width: 70%;
+}
+
 
 header>div>div>div>p {
     font-size: 14pt;
@@ -65,4 +105,8 @@ header>img {
 
 .pai {
     display: flex;
+}
+.pai>div>div>input{
+    display: block;
+    margin-bottom: 10px;
 }
