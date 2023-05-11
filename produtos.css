@@ -130,3 +130,23 @@ header>img {
     padding: 20px;
     text-align: center;
   }
+  .right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3, .product p {
+    margin: 10px 0;
+}
