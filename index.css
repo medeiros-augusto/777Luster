@@ -141,3 +141,9 @@ header>img {
     display: block;
     margin-bottom: 10px;
 }
+
+.link-produtos {
+    text-decoration: none; 
+    color: inherit; 
+    font-size: l    arge;
+}
