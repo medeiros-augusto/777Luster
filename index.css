@@ -54,11 +54,9 @@ footer {
 
 header {
     position: fixed;
-    display: inline-flex;
     width: 100%;
     left: 0;
     top: 0;
-    gap: 24%;
     margin: solid 1px white;
     background-color: rgb(34, 34, 34);
 }
@@ -68,35 +66,8 @@ main {
     margin-left: 10px;
 }
 
-.topo {
-    height: 30%;
-    width: 100%;
-}
-
-.esquerda {
-    height: 70%;
-    width: 30%;
-}
-
-.direita {
-    height: 70%;
-    width: 70%;
-}
-
-header>div>div>div>p {
-    font-size: 14pt;
-}
-
-header>img {
-    margin-top: 5px;
-}
-
 #botoes {
-    margin-top: 1%;
-}
-
-#primordial {
-    margin-left: 1%;
+    margin-top: 0.75%;
 }
 
 #pip {
@@ -107,8 +78,8 @@ header>img {
     position: fixed;
     background-image: url(https://static.vecteezy.com/system/resources/previews/015/840/127/non_2x/luxurious-colorful-liquid-marble-surface-background-dark-red-color-beautiful-fluid-abstract-marble-oil-paint-background-illustration-free-vector.jpg);
     border-radius: 10px;
-    width: 1000px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
 }
 
 .margin {
@@ -125,12 +96,8 @@ header>img {
 }
 
 #bonus {
-    margin-top: 30px;
-    margin-left: 110px;
-}
-
-.cabeca {
-    margin-top: 20px;
+    margin-top: 12%;
+    margin-left: 20%;
 }
 
 .pai {
@@ -144,6 +111,22 @@ header>img {
 
 .link-produtos {
     text-decoration: none; 
-    color: inherit; 
-    font-size: l    arge;
+    color: inherit;
+}
+#texto{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 18pt;
+}
+.pod{
+    display: flex;
+    gap: 29%;
+}
+.line{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 10px;
+}
+#patro{
+    margin-top: 35%;
 }
