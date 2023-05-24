@@ -1,14 +1,20 @@
 body {
     background-image: url(images/fundo.png);
     margin: 80px;
-    padding-top: 80px;
+    padding-top: 3%;
 }
 
 .pai {
     position: fixed;
     display: flex;
-    margin-left: 11%;
     text-align: center;
+}
+#log{
+    margin-left: 11%;
+}
+
+#reg{
+    margin-left: 8%;
 }
 
 .direita,
@@ -19,6 +25,12 @@ body {
     padding: 40px;
     border-radius: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+#tam{
+    width: 30%;
+}
+#mat{
+    width: 30%;
 }
 
 .pai>.esquerda>#titulo {
