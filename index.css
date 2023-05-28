@@ -1,6 +1,6 @@
 body {
-    background: black;
-    color: whitesmoke;
+    background: white;
+    color: black;
 }
 
 .vermeio {
@@ -74,7 +74,8 @@ main {
     margin-left: 50px;
 }
 
-#promo {
+#promo, #promo>p {
+    color: white;
     position: fixed;
     background-image: url(https://static.vecteezy.com/system/resources/previews/015/840/127/non_2x/luxurious-colorful-liquid-marble-surface-background-dark-red-color-beautiful-fluid-abstract-marble-oil-paint-background-illustration-free-vector.jpg);
     border-radius: 10px;
@@ -93,6 +94,7 @@ main {
 
 #titulo {
     margin-top: 10px;
+    color: white;
 }
 
 #bonus {
@@ -111,7 +113,7 @@ main {
 
 .link-produtos {
     text-decoration: none; 
-    color: inherit;
+    color: white;
 }
 #texto{
     margin-top: 3%;
