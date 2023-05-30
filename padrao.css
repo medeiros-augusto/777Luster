@@ -1,30 +1,78 @@
-/* imagens */
-
-
-/*tela compra*/
-.botcompra{
-    border-radius: 15px;
-    height: 30px;
-    width: 180px;
-    font-size: 10pt;
-    color: white;
-    background: green;
+body{
+    background: gray;
 }
-
-/* corpo */
-
-#play {
-    gap: 20%;
-}
-
-.compra {
-    background: rgb(34, 34, 34);
-    color: white;
-    width: 40%;
-    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.descricao{
-    margin: 5%;
-}
+.produto {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+  
+  .image {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .descricao {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .legenda {
+    margin-bottom: 10px;
+    color: #888;
+  }
+  
+  .itens {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .itens li {
+    margin-bottom: 5px;
+  }
+  
+  .preco {
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .desconto {
+    font-size: 24px;
+    color: #f00;
+    margin-bottom: 10px;
+  }
+  
+  .botcompra {
+    display: block;
+    padding: 10px 20px;
+    background-color: #00ff4c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+  }
