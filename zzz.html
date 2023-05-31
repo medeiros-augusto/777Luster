@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/dados.png">
+    <link rel="stylesheet" href="zzz.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Produtos</title>
+</head>
+
+<body>
+    <header>
+        <div class="pod">
+            <div class="pai">
+                <div>
+                    <div class="line">
+                        <div>
+                            <a href=""><img src="images/dados.png" alt="dados" height="25" width="40" class="cabeca"></a>
+                        </div>
+                        <div>
+                            <a href="" class="link-produtos">Cassino</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="line">
+                        <div>
+                            <a href="produtos.html"><img src="images/gosverni.png" alt="gosverni" height="25" width="40"></a>
+                        </div>
+                        <div>
+                            <a href="produtos.html" class="link-produtos">Produtos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="index.html"><img src="images/luster.png" alt="logo luster" id="luster" width="250" height="50"></a>
+            </div>
+            <div id="botoes">
+                <a href="login.html"><input type="submit" value="Login" class="preto"></a>
+                <a href="register.html"><input type="submit" value="Registro" class="vermeio"></a>
+            </div>
+        </div>
+    </header>
+<main>
+    
+    <div class="container">
+        <div class="category-container">
+          <label for="category">Categoria:</label>
+          <div class="dropdown-container" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+            <select id="dropdown" onchange="showProducts()">
+              <option value="" disabled selected style="display: none;">Selecione uma categoria</option>
+              <option value="smartphone">Smartphone</option>
+              <option value="computadores">Computadores</option>
+              <option value="consoles">Consoles</option>
+              <option value="acessorios">Acessórios</option>
+            </select>
+            <div class="dropdown" id="dropdownItems">
+              <a href="#" onclick="selectCategory('smartphone')">Smartphone</a>
+              <a href="#" onclick="selectCategory('computadores')">Computadores</a>
+              <a href="#" onclick="selectCategory('consoles')">Consoles</a>
+              <a href="#" onclick="selectCategory('acessorios')">Acessórios</a>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="grid-container" id="productsContainer"></div>
+        </div>
+      </div>
+
+      <script src="zzz.js"></script>
+ 
+</main>
+</body>
